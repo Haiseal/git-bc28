@@ -4,7 +4,12 @@
 	-lệnh: git --version
 3/ đưa code lên server github/gitlab
 	-lệnh: -) git add . | git add ./index.html
-		 -) git commit
-		 -) git push
+		 -) git commit -m "your commet"
+		 -) git push origin master
 4/ lệnh kiểm tra trạng thái của git
 	-lệnh: git status
+5/ lệnh giúp git biết được sẽ đưa code lên chỗ nào 
+	-lệnh: git remote add {name} {url_github}
+	-ví dụ: git remote add origin https://github.com/Haiseal/git-bc28.git
+6/ lệnh kiểm tra git remote thành công chưa
+	lệnh: git remote 
