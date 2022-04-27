@@ -16,3 +16,15 @@
 7/ người mới vào công ty lấy code như thế nào
 	lệnh: git clone {url_github}
 	vi dụ: git clone https://github.com/Haiseal/git-bc28.git
+8/ kiểm tra xem có bao nhiêu nhánh trên src code:
+	lệnh: git branch
+9/ tạo nhánh mới bằng:
+	lệnh: git branch {name}
+	ví dụ: git branch abc-header
+10/ chuyển nhánh để code tiếp
+	lệnh: git checkout {branch-name}
+	ví dụ: git checkout abc-header
+11/ kết hợp code của 2 nhánh
+	-lệnh: git merge {branch-name}
+	-note nếu muốn merge code vào nhánh master thì phải đứng ở nhánh master
+	-ví dụ: git merge abc-header
