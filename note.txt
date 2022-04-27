@@ -13,3 +13,6 @@
 	-ví dụ: git remote add origin https://github.com/Haiseal/git-bc28.git
 6/ lệnh kiểm tra git remote thành công chưa
 	lệnh: git remote 
+7/ người mới vào công ty lấy code như thế nào
+	lệnh: git clone {url_github}
+	vi dụ: git clone https://github.com/Haiseal/git-bc28.git
